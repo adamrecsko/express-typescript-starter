@@ -4,8 +4,10 @@ Basic express webserver written in typescript.
 
 ## Installation
 - ```$npm install```
+
 ## Usage
-__Run:__
+
+Run:
 - ```$npm run start-dev ```: to start development mode
 - ```$npm run dist ```: to execute distribution
 - ```$npm start ```:  to start webserver after distribution
