@@ -1,0 +1,28 @@
+{
+    "name": "express-typescript-starter",
+    "version": "0.0.1",
+    "description": "Express typescript starter project",
+    "main": "index.js",
+    "scripts": {
+        "start": "node dist/index.js",
+        "start-dev": "concurrently \"npm run tsc:w\" \"npm run nodemon\" ",
+        "nodemon": "nodemon dist/index.js",
+        "tsc:w": "tsc -w",
+        "postinstall": "typings install",
+        "dist": "tsc"
+    },
+    "author": "Adam Recsko <adam.recsko@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "concurrently": "^2.0.0",
+        "nodemon": "^1.9.1",
+        "typescript": "^1.8.9 ",
+        "typings": "^0.7.9"
+    },
+    "dependencies": {
+        "body-parser": "^1.15.0",
+        "cors": "^2.7.1",
+        "express": "^4.13.4",
+        "lodash": "^4.9.0"
+    }
+}
