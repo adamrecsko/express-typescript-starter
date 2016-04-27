@@ -22,6 +22,9 @@ Run:
 
 ## History
 
+- 2016-04-10: 0.0.2 version
+ - Removes unnecessary "exclude" field in tsconfig.json
+
 - 2016-04-10: 0.0.1 version
 
 ## License

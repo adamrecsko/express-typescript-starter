@@ -11,9 +11,6 @@
         "outDir": "./dist",
         "pretty": true
     },
-    "exclude": [
-        "node_modules"
-    ],
     "files": [
         "./index.ts"
     ]
